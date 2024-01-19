@@ -26,6 +26,6 @@ with open('message_copy.txt', mode ='w', encoding ='utf8') as f :
 #원본 파일에 내용 읽은 후 새 파일에 바로 저장
 with open(filename, mode = 'r', encoding = 'utf8') as f:
     with open('message_copy.txt', mode ='w', encoding ='utf8') as nf:
-        nf.write(f.read())
+        nf.write(of.read())
 
 
